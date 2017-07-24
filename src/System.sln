@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "System.IO", "System\IO\System.IO.shproj", "{14DD1D63-3E8F-4F6C-AF27-BD9173142609}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "System.Security.Cryptography", "System\Security\Cryptography\System.Security.Cryptography.shproj", "{0CB966CB-7739-43C3-B700-0CEB4559E0C5}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		System\Security\Cryptography\System.Security.Cryptography.projitems*{0cb966cb-7739-43c3-b700-0ceb4559e0c5}*SharedItemsImports = 13
+		System\IO\System.IO.projitems*{14dd1d63-3e8f-4f6c-af27-bd9173142609}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
