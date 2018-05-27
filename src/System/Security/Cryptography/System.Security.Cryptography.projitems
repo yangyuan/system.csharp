@@ -9,6 +9,7 @@
     <Import_RootNamespace>System.Security.Cryptography</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BlowFish.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClassHash.cs" />
   </ItemGroup>
 </Project>
